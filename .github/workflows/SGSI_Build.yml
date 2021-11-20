@@ -23,9 +23,9 @@ jobs:
           required "${{ steps.config.outputs.rom_url }}" "https://bigota.d.miui.com/21.11.17/miui_PYXIS_21.11.17_e1c4c545ec_11.0.zip"
           required "${{ steps.config.outputs.build_type }}" "ab"
           required "${{ steps.config.outputs.os_type }}" "MIUI"
-          required "${{ steps.config.outputs.zip_name }}" "MIUI12"
+          required "${{ steps.config.outputs.zip_name }}" "MIUI125"
           required "${{ steps.config.outputs.version }}" "VERSION config"
-          required "${{ steps.config.outputs.repack_name }}" "MIUI ON NUBIA"
+          required "${{ steps.config.outputs.repack_name }}" "MIUIONNUBIA"
 
       - name: Cleanup workspace
         uses: rokibhasansagar/slimhub_actions@main
