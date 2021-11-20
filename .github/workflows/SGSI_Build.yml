@@ -75,7 +75,6 @@ jobs:
                  mv "${{ steps.config.outputs.repack_name }}" upload/"${{ steps.config.outputs.repack_name }}"
              fi
              ls "upload"
-
      - name: Upload SGSI to GH-Release
        uses: ncipollo/release-action@v1.8.6
        with:
